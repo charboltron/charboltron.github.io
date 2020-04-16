@@ -1,5 +1,5 @@
 # charboltron.github.io
 
-My portfolio website. Not really official as it was completed for a fullstack course, but it suffices. Here it is: 
+My portfolio website completed as part of a web development course.
 
 https://charboltron.github.io/html/index.html
