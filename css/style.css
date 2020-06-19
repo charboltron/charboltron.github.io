@@ -274,7 +274,7 @@ grid-gap: 1px;
 .theory_item3 { grid-area: three;}
 .theory_item4 { grid-area: four; }
 .theory_item5 { grid-area: five; }
-.theory_item6 { grid-area: six; }
+.theory_item6 { grid-area: six; max-width: 500px;}
 .theory_item7 { grid-area: seven; }
 
 .theory-container {
@@ -282,7 +282,8 @@ grid-gap: 1px;
   grid-template-areas:
     'one one . .'
     'two two three three'
-    'four four five five';
+    'four four five five'
+    'six  six  seven seven';
   grid-gap: 10px;
   max-width: 100vw;
   background-color: rgb(255, 255, 255);
