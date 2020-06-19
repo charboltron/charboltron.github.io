@@ -16,7 +16,7 @@
   background-image: url("../img/rebe-adelaida-zunQwMy5B6M-unsplash.jpg");
   background-color :whitesmoke;
   background-size: cover;
-  height: 70vh; /*vh = viewport height. needed to fit image to jumbo*/   
+  height: 100vh; 
 }
 h1.main{
   font-style: normal;
