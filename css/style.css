@@ -13,7 +13,7 @@
 /******************/
 
 .jumbotron {
-  background-image: url("../img/roman-bozhko-bY5ULeKr4bk-unsplash.jpg");
+  background-image: url("../img/rebe-adelaida-zunQwMy5B6M-unsplash");
   background-color :whitesmoke;
   background-size: cover;
   height: 70vh; /*vh = viewport height. needed to fit image to jumbo*/   
@@ -234,7 +234,7 @@ grid-gap: 1px;
 /* Spreadsheet Parser Layout */
 .spreadsheet_item1 { grid-area: one; }
 .spreadsheet_item2 { grid-area: two;
-                     max-width: 600px; }
+                    max-width: 600px; }
 .spreadsheet_item3 { grid-area: three;}
 .spreadsheet_item4 { grid-area: four; }
 .spreadsheet_item5 { grid-area: five; }
@@ -270,8 +270,7 @@ grid-gap: 1px;
 
 /* Theory */
 .theory_item1 { grid-area: one; }
-.theory_item2 { grid-area: two; 
-max-width: 500px;}
+.theory_item2 { grid-area: two; max-width: 500px;}
 .theory_item3 { grid-area: three;}
 .theory_item4 { grid-area: four; }
 .theory_item5 { grid-area: five; }
@@ -304,8 +303,6 @@ max-width: 500px;}
   max-width: 600px;
   max-height: 800px;
 }
-
-/* About Layout */
 
 /* IRC Layout */
 
@@ -340,7 +337,6 @@ max-width: 500px;}
   max-height: 500px;
 }
 
-/* Contact !! This section was copy-pasted and hasn't been checked at all*/
 .btn{
   width:100px;
   border-color: #2F3E48;
