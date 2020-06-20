@@ -428,22 +428,31 @@ form {
 }
 
 /* ML Layout */
+.ml-text{
+  margin-left: 10px;
+  margin-right: 10px;
+  max-width: 65rem;
+}
 
 .ml-container {
-  display: grid;
-  margin: 1rem;
+  margin: 5rem;
   grid-gap: 1px;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
   background-color: #fff;
   color: #444;
   }
 .ml-pic{
-  margin:3px;
+  margin-top:20px;
+  margin-bottom:25px;
   padding:5px;
   max-width: 1000px;
   max-height: 1000px;
-  border-radius: 30px;;
+  border-radius: 10px;;
+}
+#bayes-portrait{
+  max-width: 500px;
+}
+#kcluster{
+  max-width: 600px;
 }
 
 /* Future Projects */

@@ -47,21 +47,51 @@
     <div class="box screenshot">
       <div class="pics-container">
         <div class="row">
-          <a href="https://github.com/charboltron/MNIST_multilayer_perceptron">Multilayer Perceptron on MNIST handwritten data</a>
-          <br></br>
-          <p>The MNIST dataset of handwritten digits is a pretty classic set for experimenting with perceptron learning. 
+          <a href="https://github.com/charboltron/MNIST_multilayer_perceptron" target="_blank">
+            <p class="ml-text">Multilayer Perceptron on MNIST Handwritten Data</p> </a>
+          <p class="ml-text">The MNIST dataset of handwritten digits is a pretty classic set for experimenting with perceptron learning. 
             This project compares several different hyperparameters for training on the MNIST data, including changing the 
-            number of hidden layer units, the momentum term, and the batch size for testing/training.
+            number of hidden layer units, the momentum term, and the batch size for testing/training. Training uses forward feeding and back propagation
+            algorithm.
           </p>
-          <img class="ml-pic" src="/img/ml/mlp_train_screen.png" alt="mlp_code">
+          <a href="/img/ml/MNIST_report.pdf" target="_blank"><img class="ml-pic" src="/img/ml/mnist.png" alt="mnist_digits"></a>
+          <img class="ml-pic" src="/img/ml/mlp.png" alt="mlp_code">
         </div>
         <div class="row">
-          <a href="/img/ml/MNIST_report.pdf" target="_blank"><img class="ml-pic" src="/img/ml/mnist.png" alt="mlp_code"></a>
+          <img class="ml-pic" src="/img/ml/mlp_train_screen.png" alt="mlp_code">
         </div>
       </div>
     </div>
-      <div class="box note">
+    <hr>
+    <div class="box screenshot">
+      <div class="pics-container">
+        <div class="row">
+          <p class="ml-text">Spam Identification using Naive Bayes</p>
+          <p class="ml-text">In another well-known machine learning application, using a probabilistic model with a Naive Bayesian classifier, 
+          you can train a model to identify spam emails. This project was based on the spam dataset from University of California Irvine.  
+          </p>
+          <a href="/img/ml/Bayes_report.pdf" target="_blank"><img class="ml-pic" id="bayes-portrait" src="/img/ml/bayes_the_man_formula.png" alt="bayes_formula"></a>
+        </div>
+        <div class="row">
+          <img class="ml-pic" src="/img/ml/bayes.png" alt="bayes_code">
+        </div>
       </div>
+    </div>
+    <hr>
+    <div class="box screenshot">
+      <div class="pics-container">
+        <div class="row">
+          <p class="ml-text">Unsupervised K-means and Fuzzy C-means clustering</p>
+          <p class="ml-text">K-means is a popular algorithm for classifying data when no labels are present. This program ran a classifier on random data 
+            from a gaussian distribution, clustering the data based on several values of k, from 2-8.
+          </p>
+          <a href="/img/ml/Kmeans_report.pdf" target="_blank"><img class="ml-pic" id="kcluster" src="/img/ml/kmeans_cluster.png" alt="bayes_formula"></a>
+        </div>
+        <div class="row">
+          <img class="ml-pic" src="/img/ml/k-means-code.png" alt="k-means_code">
+        </div>
+      </div>
+    </div>
   </div>
 </body>
 </html>
