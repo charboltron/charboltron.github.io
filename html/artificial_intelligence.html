@@ -13,12 +13,12 @@
   
   <link rel="stylesheet" href="../css/style.css">
 
-    <!-- Favicon -->
-    <link rel="browser icon" href="/favicon/favicon.ico">
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-    <link rel="manifest" href="favicon/site.webmanifest">
+  <!-- Favicon -->
+  <link rel="browser icon" href="/favicon/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="manifest" href="favicon/site.webmanifest">
 </head>
 <body>
   <nav class="navbar navbar-inverse">
@@ -40,7 +40,83 @@
       </div>
     </div>
   </nav>
-
-    <h1>oops, this page will be finished in a few days.</h1>
+  <div class="ml-container">
+    <div class="box name">AI Projects</div>
+    <div class="box info"> 
+    </div>
+    <div class="box screenshot">
+      <div class="pics-container">
+        <div class="row">
+          <a href="https://github.com/charboltron/artificial_intelligence/blob/master/A_star_eight_puzzle/fifteen_puzzle.py" target="_blank">
+            <p class="ml-text">Sliding Puzzle Solver</p>
+          </a>
+          <p class="ml-text">
+            The puzzle solver is a classic and a pretty neat AI demonstration which shows how an agent can solve a "sliding puzzle" like the one below.
+            This project compares several different algorithms including Best First Search and A* with three different heuristics: 
+            Manhattan distance, misplaced tiles, and row/column misplacement. I first wrote the solver for the puzzle with 8 pieces and later 
+            added a script to solve the larger 15 piece puzzle, where a sample solution is shown on the right.  
+          </p>
+          <a href="/img/ai/Puzzle_report.pdf" target="_blank"><img class="ml-pic" src="/img/ai/15-Puzzle.jpg" alt="15-puzzle"></a>
+        </div>
+        <div class="row">
+          <img class="ml-pic" src="/img/ai/15-puzzle-out.png" alt="puzzle output">
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="box screenshot">
+      <div class="pics-container">
+        <div class="row">
+          <a href="https://github.com/charboltron/artificial_intelligence/blob/master/genetic_8_queens/genetic_alg_8_queens_no_plot.py" target="_blank">
+            <p class="ml-text">8-queens Genetic Algorithm</p>
+          </a>  
+          <p class="ml-text">Another well-known AI puzzle, a solution to the 8-queens puzzle involves finding a way to place 8 queen pieces
+          on an 8x8 chessboard in such a way that none are "attacking" another. This project uses a genetic algorithm to find a solution.  
+          </p>
+          <a href="/img/ai/Queens_report.pdf" target="_blank"><img class="ml-pic" id="chessboard" src="/img/ai/chessboard.png" alt="chessboard"></a>
+        </div>
+        <div class="row">
+          <img class="ml-pic" src="/img/ai/8-queens.png" alt="queens output">
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="box screenshot">
+      <div class="pics-container">
+        <div class="row">
+          <p class="ml-text">Reinforcement Learning Robot</p>
+          <p class="ml-text">This is a project I'm currently working on.  
+          </p>
+          <!-- <a href=".pdf" target="_blank"><img class="ml-pic" id="robby" src="/img/ai/.png" alt="robby"></a> -->
+        </div>
+        <div class="row">
+          <!-- <img class="ml-pic" src="/img/ai/.png" alt="robby"> -->
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="box screenshot">
+      <div class="pics-container">
+        <div class="row">
+          <a href="https://github.com/charboltron/Euphonomimesis" target="_blank">
+            <p class="ml-text">GAs for Audio Mimicry</p>
+          </a>
+          <p class="ml-text">
+            Euphonomimesis is an experiment in the application of a genetic algorithm 
+            to audio samples in the time and frequency domains. The name came about as 
+            a portmanteau of euphonic (“pleasant sounding”) and mimesis (“imitation of the 
+            real”). We developed this project based on our interest in applying AI/ML 
+            algorithms to digital audio for creative purposes. Created by a team of three 
+            students. 
+          </p>
+        </div>
+        <div class="row">
+          <a href="/img/ai/euphonomimesis_report.pdf" target="_blank"><img class="ml-pic" id="logic" src="/img/ai/logic.png" alt=""></a>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <a href="/img/ai/Zing.pdf" target="_blank" >zing</a>
+  </div>
 </body>
 </html>

@@ -427,7 +427,7 @@ form {
   box-shadow: rgba(0,0,0,0.2) 0px 2px 3px, inset rgba(0,0,0,0.2) 0px -1px 2px;
 }
 
-/* ML Layout */
+/* ML & AI Layout */
 .ml-text{
   margin-left: 10px;
   margin-right: 10px;
@@ -453,6 +453,9 @@ form {
 }
 #kcluster{
   max-width: 600px;
+}
+#chessboard{
+  max-width: 400px;
 }
 
 /* Future Projects */
