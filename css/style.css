@@ -460,7 +460,9 @@ form {
 #sym-crypt{
   max-width: 800px;
 }
-
+#bach-score{
+  max-width: 600px;
+}
 /* Future Projects */
 
 .future{
