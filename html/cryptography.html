@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Cryptography</title>
+  <meta charset="utf-8">
+  
+  <!-- Bootstrap -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <!--------------->
+  
+  <link rel="stylesheet" href="../css/style.css">
+
+  <!-- Favicon -->
+  <link rel="browser icon" href="/favicon/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="manifest" href="favicon/site.webmanifest">
+</head>
+<body>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+          <a class="navbar-brand" href="index.html">CB</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="../resume/charles_bolton_resume.pdf" target="_blank">Resume</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="ml-container">
+    <div class="box name">Cryptography Projects</div>
+    <div class="box info"> 
+    </div>
+    <div class="box screenshot">
+      <div class="pics-container">
+        <div class="row">
+          <p class="ml-text">Symmetric Cryptosystem</p> </a>
+          <p class="ml-text">This project needs a more interesting name, but it is a pretty neat
+            symmetric cryptosystem that was imagined as an amalgamation of Skipjack and Twofish. 
+            This system features a Feistel structure with key whitening, a key schedule, and several 
+            subroutines including permutation which increase confusion/diffusion. Two different versions
+            of this program support 64-bit and 80-bit keys, respectively. Written in Python.  
+          </p>
+          <img class="ml-pic" id="sym-crypt" src="/img/crypto/sym-crypt.png" alt="subroutine">
+        </div>
+        <div class="row">
+          <img class="ml-pic" src="/img/crypto/feistel proof.png" alt="feistel_proof">
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="box screenshot">
+      <div class="pics-container">
+        <div class="row">
+          <p class="ml-text">Asymmetric Elgamal</p>
+          <p class="ml-text">This cryptoscheme implements asymmetric encryption with public and private keys
+            using, among other things, the Miller-Rabin primality test, square multiply, and modular exponentiaton. 
+          </p>
+        </div>
+        <div class="row">
+          <img class="ml-pic" src="/img/crypto/miller-rabin.png" alt="Miller-Rabin code">
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="box screenshot">
+      <div class="pics-container">
+        <div class="row">
+          <p class="ml-text">Elliptic Curve Cryptography Lecture</p>
+          <p class="ml-text">This was not a programming project, but I prepared and taught a graduate lecture on 
+            elliptic curve cryptography, discussing the form of the curve, the mathematics behind ECC, Diffie-Hellman
+            ECC key exchange and the discrete logarithm problem, and some proofs regarding the analytical formulae 
+            used in devices to compute the elliptic curve group math. 
+          </p>
+          <iframe src="https://www.desmos.com/calculator/lvoywzku7x?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe>        </div>
+        <div class="row">
+          <img class="ml-pic" src="/img/crypto/ecc-desmos.png" alt="ecc-graph">
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="box screenshot">
+      <div class="pics-container">
+        <div class="row">
+          <a href="/latex/quantum_crypto.pdf" target="_blank">
+            <p class="ml-text">Post-Quantum Cryptography</p>
+          </a>
+          <p class="ml-text">This was a research project completed by three students for a quantum computing class. 
+            This paper examines some of the proposed solutions to creating safe cryptosystems once/if quantum computing
+            takes over.  
+          </p>
+        </div>
+        <div class="row">
+          <img class="ml-pic" id="NBA" src="/img/crypto/dihedral.png" alt="dihedral hidden subgroup">
+        </div>
+      </div>
+    </div>
+    <hr>
+    <p>
+      In addition to the projects above, I have also written some smaller programs which decrypt 
+      Caesar and Vigenere ciphers but these are not as substantial so they aren't included. 
+    </p>
+  </div>
+</body>
+</html>

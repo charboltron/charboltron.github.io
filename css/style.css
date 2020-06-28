@@ -457,6 +457,9 @@ form {
 #chessboard{
   max-width: 400px;
 }
+#sym-crypt{
+  max-width: 800px;
+}
 
 /* Future Projects */
 
