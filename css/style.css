@@ -461,7 +461,13 @@ form {
   max-width: 800px;
 }
 #bach-score{
+  max-height: 400px;
   max-width: 600px;
+}
+#shakespeare-text{
+  font-family: 'Crimson Text', serif;
+  margin-right: 1rem;
+  margin-left: 1rem;
 }
 /* Future Projects */
 

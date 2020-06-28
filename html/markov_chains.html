@@ -10,15 +10,15 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   <!--------------->
-  
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../css/style.css">
 
-    <!-- Favicon -->
-    <link rel="browser icon" href="/favicon/favicon.ico">
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-    <link rel="manifest" href="favicon/site.webmanifest">
+  <!-- Favicon -->
+  <link rel="browser icon" href="/favicon/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="manifest" href="favicon/site.webmanifest">
 </head>
 <body>
   <nav class="navbar navbar-inverse">
@@ -52,11 +52,15 @@
           <p class="ml-text">The first is the first real program I ever wrote in haskell. It was initially a markov 
             speech generator based on Trump's speeches circa 2016, but eventually grew to a generator that could 
             train on various public domain sources such as James Joyce, Virginia Woolf, Shakespeare, the Bible, etc.
+            Most of the output was either funny or made absolutely no sense, but occasionally something pretty great 
+            came out. The sample here was trained on Shakespeare. 
           </p>
-          <img class="ml-pic" src="/img/ml/mnist.png" alt="mnist_digits">
+          <p id="shakespeare-text">
+            "Falstaff, want of promise in this instant of charity, and by law o'ertake me for our excuse? Paris. I'll follow presently. [Exit]. Cassius. Yet look in their rising so martial! Burgundy. As you of their spleenful sons you like Brutus, none. [exit Imogen] As one bear me love him free? o."
+          </p>
         </div>
         <div class="row">
-          <img class="ml-pic" src="/img/markov/words.png" alt="words code">
+          <img class="ml-pic" src="/img/markov/words.png" alt="shakespeare">
         </div>
       </div>
     </div>
@@ -64,12 +68,14 @@
     <div class="box screenshot">
       <div class="pics-container">
         <div class="row">
+          <a href="https://github.com/charboltron/markov_haskell" target="_blank">
           <p class="ml-text">Markov Music Generator</p>
+          </a>
           <p class="ml-text"> The second is an experiment in markov chain generation using midi files from European 
             The second is an experiment in markov chain generation using midi files from European classical 
             composers in the range of Bach to Debussy. My second project in Haskell, it is still a bit of a 
             learning project. The music these chains generate is mostly unlistenable but it was an interesting 
-            experiment using Euterpea, nonetheless. There is a sample below, poor quality because 
+            experiment using Euterpea, nonetheless. There is a sample below (trained on JS Bach), poor quality because 
             I just recorded it with my phone (sorry hah).  
           </p>
         <img class="ml-pic" id="bach-score" src="/img/markov/bach_score.jpg" alt="bach score"></a>
