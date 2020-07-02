@@ -469,6 +469,9 @@ form {
   margin-right: 1rem;
   margin-left: 1rem;
 }
+#db-cli{
+  max-width: 800px;
+}
 /* Future Projects */
 
 .future{
