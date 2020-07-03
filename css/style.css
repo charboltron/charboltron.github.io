@@ -472,6 +472,12 @@ form {
 #db-cli{
   max-width: 800px;
 }
+#nat-spline{
+  max-width: 600px;
+}
+#best-fit{
+  max-width: 500px;
+}
 /* Future Projects */
 
 .future{
