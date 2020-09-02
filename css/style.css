@@ -13,7 +13,8 @@
 /******************/
 
 .jumbotron {
-  background-image: url("../img/rebe-adelaida-zunQwMy5B6M-unsplash.jpg");
+  /* background-image: url("../img/rebe-adelaida-zunQwMy5B6M-unsplash.jpg"); */
+  background-image: url("../img/fabian_wohlgemuth.jpg");
   background-color :whitesmoke;
   background-size: cover;
   height: 100vh; 
