@@ -17,19 +17,27 @@
   background-image: url("../img/fabian_wohlgemuth.jpg");
   background-color :whitesmoke;
   background-size: cover;
-  height: 100vh; 
+  height: 100vh;
+  color:white; 
 }
-h1.main{
+
+#mainjumbo .main{
+  font-size: 150px;
+  margin-top: 100px;
   font-style: normal;
-  font-size: 40px;
+  font-family: 'Cormorant Garamond', serif;
 }
+
+/* .jumbotron p{ 
+  font-size: 35px;
+} */
+
 h1{
   margin: 20px;
 }
 
 p.info-text{
   font-size: 20px;
-  
 }
 
 .row{
